@@ -12,7 +12,7 @@ dnl The Software is provided WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED. This
 dnl notice is a summary of the Click LICENSE file; the license in that file is
 dnl legally binding.
 
-AC_INIT(click-openbox, 2.0.1)
+AC_INIT(click-openbox, 2.1)
 AC_SUBST(ac_configure_args)
 
 CLICKPACKAGENAME=openbox

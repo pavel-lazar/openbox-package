@@ -82,4 +82,3 @@ CLICK_ENDDECLS
 EXPORT_ELEMENT(RegexClassifier)
 ELEMENT_REQUIRES(userlevel RegexSet)
 ELEMENT_MT_SAFE(RegexClassifier)
-ELEMENT_LIBS((-L/usr/local/lib -lre2))

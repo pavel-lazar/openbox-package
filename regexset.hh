@@ -1,6 +1,5 @@
 #ifndef CLICK_REGEXSET_H_
 #define CLICK_REGEXSET_H_
-#include <click/ahocorasick.h>
 #include <click/string.hh>
 #include <click/packet.hh>
 #include <re2/re2.h>
