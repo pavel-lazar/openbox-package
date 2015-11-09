@@ -38,7 +38,7 @@ Packet *ChatterMessage::simple_action(Packet *p) {
 void ChatterMessage::format_message() {
     Json message = Json();
     message.set("type", _type);
-    message.set("message", _message);
+    message.set("content", _message);
     _formated_message = message.unparse();
 }
 void ChatterMessage::emit() const {
