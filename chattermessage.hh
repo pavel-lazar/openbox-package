@@ -7,14 +7,14 @@ CLICK_DECLS
 =c
 ChatterMessage(TYPE, MSG, [KEYWORDS])
 
-=s local
+=s control
 Prints a chatter message.
 
 =d
 
 Prints a chatter MSG with a set TYPE. 
 The chatter format is a simple JSON: 
-{"type":"TYPE", "message":MSG}
+{"type":"TYPE", "content":MSG}
 
 
 Keyword arguments are:
@@ -37,7 +37,7 @@ is the default channel, which corresponds to C<click_chatter()>.
 
 For example,
 
-  ...->ChatterMessage(Log, "This is a log message")->...
+  ...->ChatterMessage(LOG, "This is a log message")->...
 
 =h type rw
 Returns or sets the message TYPE
